@@ -1,0 +1,17 @@
+<!ELEMENT theaters (heading,cityname,dos,theater+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT cityname (#PCDATA)>
+<!ELEMENT dos (#PCDATA)>
+<!ELEMENT theater (name,address,getshowtime,movies)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT getshowtime (#PCDATA)>
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (moviename,rating,duration,showtimes)>
+<!ELEMENT moviename (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT showtimes (#PCDATA)>
+<!ATTLIST theater value CDATA #REQUIRED>
+<!ATTLIST movie value CDATA #REQUIRED>
+

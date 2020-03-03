@@ -1,0 +1,107 @@
+theater{
+	display: table;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: solid;
+	margin-bottom:10px;
+}
+heading{
+	display:solid;
+	color:blue;
+	
+}
+
+movies{
+	display: table;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	
+}
+movie{
+	display: table-row;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	margin-bottom:5px;
+	
+}
+
+address{
+	display: table-row;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	
+}
+}getshowtime{
+	display: table-row;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+}
+dos{
+	display: table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	
+}
+cityname{
+	display: table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	 
+}
+
+getshowtime{
+	display: table;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: black;
+	margin-bottom:10px;
+	 
+}
+moviename{
+	display: table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: black;
+	margin-bottom:10px;
+	margin-right:10px;
+	padding-right:5px;
+	 
+}
+rating{
+	display:table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: black;
+	margin-bottom:10px;
+	padding-right: 5px;
+	 
+}
+duration{
+	display: table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: black;
+	margin-bottom:10px;
+	padding-right:50px;
+	 
+}
+showtimes{
+	display: table-cell;
+	font-family: Arial;
+	font-size: large;
+	color: black;
+	border-style: black;
+	margin-bottom:10px;
+	 
+}

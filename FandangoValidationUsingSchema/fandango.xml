@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+
+
+<theaters>
+<heading> FANDANGO </heading>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images/fand.png" />                                                  
+ </html> -->
+  
+ <cityname>rochester,ny Showtimes</cityname>
+ <dos>Date of Show:9/26/2018</dos>
+  
+	<theater value= "Movie 10">
+
+		<name>Movie 10,	</name>
+		<address> Address:2613 West Henrietta Road, Rochester, NY 14623,</address>
+		<getshowtime>Text to FNDGO (36346) from your wireless device to get this theater's showtimes</getshowtime>
+		<movies>
+				<movie value = "The Happytime Murders">
+				<moviename>The Happytime Murders</moviename>				
+				<rating>(R)</rating>
+				<duration>1 hr 31 min</duration>
+				<showtimes> 12:25p|5:45p|7:50p</showtimes>
+				</movie>
+		
+		
+				<movie value = "Alpha">
+				<moviename>Alpha	</moviename>				
+				<rating>(PG-13)</rating>
+				<duration>1 hr 37 min</duration>
+				<showtimes> 12:20p|2:35p|4:50p|7:15p</showtimes>
+				</movie>
+		
+		
+				<movie value = "Mile 22">
+				<moviename>Mile 22</moviename>				
+				<rating>(R)</rating>
+				<duration>1 hr 35 min</duration>
+				<showtimes> 12:20p|2:35p|4:50p|7:15p</showtimes>
+				</movie>
+		</movies>
+		
+	</theater>
+	
+	<theater value= "Regal Culver Ridge Plaza 16">
+		<name>Regal Culver Ridge Plaza 16,	</name>
+		<address> 2255 Ridge Road East, Irondequoit, NY  14622</address>
+		<getshowtime>Text to FNDGO (36346) from your wireless device to get this theater's showtimes</getshowtime>
+			<movies>
+			<movie value = "Life Itself(2018)">
+				<moviename>Life Itself(2018)</moviename>				
+				<rating>(R)</rating>
+				<duration>1 hr 58 min</duration>
+				<showtimes> 12:20p|2:35p|4:50p|7:15p</showtimes>
+			</movie>
+		
+			<movie value = "The House with a clock in its walls">
+				<moviename>The House with a clock in its walls	</moviename>				
+				<rating>(PG)</rating>
+				<duration>1 hr 45 min</duration>
+				<showtimes> 12:20p|2:35p|4:50p|7:15p</showtimes>
+			</movie>
+			
+			<movie value = "A Simple Favor">
+				<moviename>A Simple Favor</moviename>				
+				<rating>(R)</rating>
+				<duration>1 hr 56 min</duration>
+				<showtimes> 12:20p|2:35p|4:50p|7:15p</showtimes>			
+			</movie>
+			</movies>		
+		</theater>
+</theaters>

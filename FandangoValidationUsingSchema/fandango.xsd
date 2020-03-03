@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+
+  <xsd:element name="theaters" >
+    <xsd:complexType>
+      <xsd:sequence>
+<xsd:element name = "heading" type ="xsd:string"/>
+<xsd:element name = "cityname" type ="xsd:string"/>
+<xsd:element name = "dos" type ="xsd:string"/>
+  
+	  <xsd:element name="theater" maxOccurs="2">
+	  <xsd:complexType>
+	  <xsd:sequence>
+	  <xsd:element name="name" type="xsd:string"/>
+	  <xsd:element name="address" type="xsd:string"/> 
+	  <xsd:element name="getshowtime" type="xsd:string"/>
+	  <xsd:element name="movies">
+	  <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="movie" maxOccurs= "3">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="moviename" type="xsd:string"/>
+              <xsd:element name="rating" type="xsd:string"/>
+			  <xsd:element name="duration" type="xsd:string"/>
+			  <xsd:element name="showtimes" type="xsd:string"/>
+            </xsd:sequence>
+            <xsd:attribute name="value" use="required"/>
+          </xsd:complexType>  
+        </xsd:element>
+      </xsd:sequence>	  
+    </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  <xsd:attribute name="value" use="required"/>
+   </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+   </xsd:complexType>
+  
+   </xsd:element>
+</xsd:schema> 
